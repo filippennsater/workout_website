@@ -19,5 +19,7 @@ Rails.application.routes.draw do
   get 'shoulders', to:'pages#shoulders'
 
   get 'legs', to:'pages#legs'
-  
+
+  root 'pages#index'
+
 end
