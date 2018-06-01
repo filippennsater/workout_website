@@ -20,6 +20,4 @@ Rails.application.routes.draw do
 
   get 'legs', to:'pages#legs'
 
-  root 'pages#home'
-
 end
